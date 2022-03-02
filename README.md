@@ -31,11 +31,11 @@ jetstream \
 |-- jspub.go  #jetstream pub消息 \
 |-- jssub.go  #jetstream sub消息 \
 |-- ncsub.go  #connect sub消息 \
-pubsub \ #普通广播接收消息
+pubsub #普通广播接收消息 \
 |-- pub.go  #connect pub消息 \
-|-- sub.go  #connect sub消息
+|-- sub.go  #connect sub消息 \
 |-- reply.go  #connect reply消息 \
-|-- request.go  #connect request消息 \
+|-- request.go  #connect request消息
 
 ## 运行pub/sub
 1、运行之前
