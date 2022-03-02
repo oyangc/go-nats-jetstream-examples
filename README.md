@@ -38,6 +38,9 @@ jetstream \
 
 2、先运行ncsub.go和jssub.go，再运行jspub.go
 
+    go run ncsub.go
+    go run jssub.go
+    go run jspub.go
 
 
 # 3、nats监控natsboard
