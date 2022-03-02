@@ -30,7 +30,7 @@ $ go get github.com/nats-io/nats.go/
 jetstream \
 |-- jspub.go  #jetstream pub消息 \
 |-- jssub.go  #jetstream sub消息 \
-|-- ncsub.go  #connect sub消息
+|-- ncsub.go  #connect sub消息 \
 pubsub \ #普通广播接收消息
 |-- pub.go  #connect pub消息 \
 |-- sub.go  #connect sub消息
